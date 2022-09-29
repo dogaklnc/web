@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charser="utf-8" />
+		<title>Kutu Konum Ayarı</title>
+		<style>
+			.kutu {
+				width: 400px;
+				height: 150px;
+				border-style: solid;
+			}
+			#iki {
+				position: fixed;
+				bottom: 0px;
+				right: 0px;
+				background-color: yellow;
+			}
+			#kucuk {
+				width: 100px;
+				height: 50px;
+				border-style: solid;
+				background-color: cyan;
+				position: absolute;
+				top: 50px; /*üstten mesafe*/
+				left: 20px; /*soldan mesafe*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="bir" class="kutu"></div>
+		<div id="iki" class="kutu">fixed
+		<div id="kucuk">absolute</div>
+	</body>
+</html>
